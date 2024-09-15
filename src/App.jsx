@@ -1,14 +1,22 @@
 import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header.jsx'
-import Navber from './components/Navber.jsx'
+import Home from './components/Home.jsx';
+// import About from './components/About.jsx';
+import Portfolio from './components/Portfolio.jsx';
+import Skills from './components/Skills.jsx';
+
 
 function App() {
 
   return (
     <>
-      <div className='bg-black text-white font-mono'>
+      <div className="App">
+        <Header />
         <Routes>
-          <Route path='/' element={<Header />}></Route>
+          <Route path="/" element={<Home />} />
+          {/* <Route path="/about" element={<About />} /> */}
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/skills" element={<Skills />} />
         </Routes>
       </div>
     </>
@@ -16,3 +24,4 @@ function App() {
 }
 
 export default App
+
