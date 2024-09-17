@@ -4,7 +4,7 @@ export const projects = [
     title: "Make Lotto Number App",
     description: "One can generate random number for lotto 6/49 and Euro Jeckpot",
     image: "../src/assets/makeLottoNumberApp.png",
-    path:"https://"
+    path:"https://makelottonumber.onrender.com"
   },
   {
     id: 2,
