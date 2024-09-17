@@ -4,13 +4,13 @@ import {projects} from '../../public/data.js'
 function Portfolio() {
   
   return (
-    <div className="bg-gray-100 py-16">
-      <h2 className="text-4xl text-center text-gray-800 mb-10">My Projects</h2>
+    <div className="bg-gray-100 py-32">
+      <h2 className="text-4xl text-center text-gray-800 mb-10 transform">My Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:px-20">
         {projects.map((project) => (
           <div
             key={project.id}
-            className="relative bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 hover:rotate-1 hover:shadow-2xl transition-transform duration-300 ease-in-out"
+            className="relative bg-white/70 shadow-lg rounded-lg overflow-hidden transform hover:scale-105 hover:rotate-1 hover:shadow-2xl transition-transform duration-300 ease-in-out"
           >
             <img src={project.image} alt={project.title} className="w-full h-60 "/>
             <div className="p-6">
