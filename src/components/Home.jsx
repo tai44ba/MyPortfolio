@@ -14,12 +14,13 @@ function Home({isGoingUp}) {
       >
       <Header />
         <div className="flex flex-col items-center justify-center h-screen text-center">
+          <img className="rounded-full aspect-square w-[220px] m-3" src="../src/assets/imageAndVideo/IMG_20241012_112212.jpg" alt="image" />
           <NavLink to='/about'>
           <h1 className="text-5xl font-bold text-white hover:text-blue-600 hover:cursor-pointer transition duration-500 ease-in-out transform hover:scale-105">
             Hello, I'm Taishi Shibamoto
           </h1>
           </NavLink>
-          <p className="text-lg text-white mt-4 transform">
+          <p className="text-xl text-white mt-4 transform">
             I'm a Full-Stack Web Developer. Welcome to my portfolio!
           </p>
           <NavLink to='/portfolio'>
