@@ -28,3 +28,6 @@ export const skills = [
   { id: 8, name: "Bootstrap", icon: "../src/assets/imageAndVideo/icons8-bootstrap.svg", path: 'https://getbootstrap.com/' },
   { id: 9, name: "Tailwind", icon: "../src/assets/imageAndVideo/icons8-tailwinds.svg", path: 'https://tailwindcss.com/' },
 ];
+
+
+export const backgoundVideo = './imageAndVideo/27239-362518579_tiny.mp4'

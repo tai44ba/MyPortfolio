@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
+import profilePic from '../assets/imageAndVideo/IMG_20241012_112212.jpg'
 
 function Home({ isGoingUp }) {
   return (
@@ -19,7 +20,7 @@ function Home({ isGoingUp }) {
         <div className="flex flex-col items-center justify-center h-screen text-center">
           <img
             className="rounded-full aspect-square w-[220px] m-4"
-            src="../src/assets/imageAndVideo/IMG_20241012_112212.jpg"
+            src={profilePic}
             alt="image"
           />
           <h1 className="text-5xl font-bold text-white">
