@@ -1,11 +1,9 @@
 import { Routes, Route, useLocation, useNavigationType } from "react-router-dom";
 import { AnimatePresence } from 'framer-motion';
-import Header from "./components/Header.jsx";
 import Home from "./components/Home.jsx";
 import Portfolio from "./components/Portfolio.jsx";
 import Skills from "./components/Skills.jsx";
 import Video from "./components/Video.jsx";
-import About from "./components/About.jsx";
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -15,7 +13,6 @@ const AnimatedRoutes = () => {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home isGoingUp={isGoingUp}/>} />
-        <Route path="/about" element={<About isGoingUp={isGoingUp}/>} />
         <Route path="/portfolio" element={<Portfolio isGoingUp={isGoingUp}/>} />
         <Route path="/skills" element={<Skills isGoingUp={isGoingUp}/>} />
       </Routes>
