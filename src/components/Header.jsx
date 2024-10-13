@@ -13,16 +13,7 @@ function Header() {
             className="nav-link text-white font-bold transition-colors duration-300"
             activeClassName="nav-link-active"
           >
-            Home
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/about"
-            className="nav-link text-white font-bold transition-colors duration-300"
-            activeClassName="nav-link-active"
-          >
-            About Me
+            Home/About me
           </NavLink>
         </li>
         <li>
@@ -31,7 +22,7 @@ function Header() {
             className="nav-link text-white font-bold transition-colors duration-300"
             activeClassName="nav-link-active"
           >
-            Portfolio
+            Project
           </NavLink>
         </li>
         <li>

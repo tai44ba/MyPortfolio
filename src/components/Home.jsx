@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import Header from "./Header";
 import { NavLink } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 function Home({ isGoingUp }) {
   return (
@@ -40,8 +42,8 @@ function Home({ isGoingUp }) {
           <div className="text-gray-300 text-xl w-6/12 m-3">
             <p>
               I am a consistent individual, always eager to discover new things.
-              I have a passion for mastering anything I set out to learn. I am
-              ready to make a meaningful contribution and achieve great things.
+              I am passionate about mastering whatever I set out to learn and am
+              ready to make meaningful contributions to achieve great things
             </p>
           </div>
           <div className="flex gap-7">
@@ -50,12 +52,39 @@ function Home({ isGoingUp }) {
                 View My Work
               </button>
             </NavLink>
-            <button className="mt-6 px-6 py-3 bg-blue-500 text-white rounded-full hover:scale-110 transition-transform duration-300 ease-in-out shadow-lg transform">
-              My Resume
-            </button>
-            <button className="mt-6 px-6 py-3 bg-blue-400 text-white rounded-full hover:scale-110 transition-transform duration-300 ease-in-out shadow-lg transform">
-              My Github
-            </button>
+            <a
+              href="https://drive.google.com/file/d/1HLimIEDMxR_EoaDHA40MWqkFNxmqDpuk/view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="mt-6 px-6 py-3 bg-blue-500 text-white rounded-full hover:scale-110 transition-transform duration-300 ease-in-out shadow-lg transform">
+                My Resume
+              </button>
+            </a>
+            <a
+              href="https://github.com/tai44ba"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="mt-6 px-6 py-3 bg-blue-400 text-white rounded-full hover:scale-110 transition-transform duration-300 ease-in-out shadow-lg transform">
+                <div className="flex ">
+                  <FaGithub className="text-2xl mx-1" />
+                  <span>Github</span>
+                </div>
+              </button>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/taishi-shibamoto-profile/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="mt-6 px-6 py-3 bg-blue-300 text-white rounded-full hover:scale-110 transition-transform duration-300 ease-in-out shadow-lg transform">
+                <div className="flex ">
+                  <FaLinkedin className="text-2xl mx-1" />
+                  <span>Linked in</span>
+                </div>
+              </button>
+            </a>
           </div>
         </div>
       </motion.div>

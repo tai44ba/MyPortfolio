@@ -17,14 +17,14 @@ function Skills({isGoingUp}) {
           My Skills
         </h2>
         <div className="flex flex-wrap justify-around text-center gap-8">
-          {skills.map((skill) => (
+          {skills.map((skill) => (<a href={skill.path} target="_blank" rel="noopener noreferrer">
             <div
               key={skill.id}
               className="p-5 min-w-[190px] bg-gray-100/80 shadow-md rounded-lg hover:bg-gray-200 hover:shadow-lg transform hover:-translate-y-1 hover:scale-110 transition-all duration-300 ease-in-out"
             >
               <div className="flex justify-center"><img src={skill.icon} alt="image"/></div>
               <h3 className="text-xl font-bold mt-4 text-gray-800">{skill.name}</h3>
-            </div>
+            </div></a>
           ))}
         </div>
       </div>
