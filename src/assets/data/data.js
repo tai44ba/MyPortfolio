@@ -10,7 +10,7 @@ import booticon from '../imageAndVideo/icons8-bootstrap.svg'
 import tailicon from '../imageAndVideo/icons8-tailwinds.svg'
 // project pictuure
 import MakeLottoImg from '../imageAndVideo/makeLottoNumberApp.png'
-import ToDoAppImg from '../imageAndVideo/icons8-tailwinds.svg'
+import ToDoAppImg from '../imageAndVideo/ToDoAppWithWeatherAPI.png'
 
 
 
