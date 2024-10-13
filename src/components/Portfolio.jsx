@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import React from "react";
-import { projects } from "../assets/data/data.js";
 import Header from "./Header.jsx";
+import projects from '../assets/data/data.js'
+
 
 function Portfolio({ isGoingUp }) {
   return (
