@@ -4,13 +4,13 @@ import "../index.css"; // Import the custom CSS file for background animations
 
 function Header() {
   return (
-    <nav className="bg-white shadow-md py-4 fixed w-screen">
+    <nav className="bg-black opacity-70 shadow-md py-4 fixed w-screen">
       <ul className="flex justify-center space-x-8">
         <li>
           <NavLink
             exact="true"
             to="/"
-            className="nav-link text-gray-800 transition-colors duration-300"
+            className="nav-link text-white font-bold transition-colors duration-300"
             activeClassName="nav-link-active"
           >
             Home
@@ -19,7 +19,7 @@ function Header() {
         <li>
           <NavLink
             to="/about"
-            className="nav-link text-gray-800 transition-colors duration-300"
+            className="nav-link text-white font-bold transition-colors duration-300"
             activeClassName="nav-link-active"
           >
             About Me
@@ -28,7 +28,7 @@ function Header() {
         <li>
           <NavLink
             to="/portfolio"
-            className="nav-link text-gray-800 transition-colors duration-300"
+            className="nav-link text-white font-bold transition-colors duration-300"
             activeClassName="nav-link-active"
           >
             Portfolio
@@ -37,7 +37,7 @@ function Header() {
         <li>
           <NavLink
             to="/skills"
-            className="nav-link text-gray-800 transition-colors duration-300"
+            className="nav-link text-white font-bold transition-colors duration-300"
             activeClassName="nav-link-active"
           >
             Skills
