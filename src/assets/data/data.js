@@ -8,9 +8,11 @@ import mongoicon from '../imageAndVideo/icons8-mongodb.svg'
 import Expressicon from '../imageAndVideo/icons8-expressjs.svg'
 import booticon from '../imageAndVideo/icons8-bootstrap.svg'
 import tailicon from '../imageAndVideo/icons8-tailwinds.svg'
+import TSicon from '../imageAndVideo/icons8-typescript.svg'
 // project pictuure
 import MakeLottoImg from '../imageAndVideo/makeLottoNumberApp.png'
 import ToDoAppImg from '../imageAndVideo/ToDoAppWithWeatherAPI.png'
+import FitzoneImg from '../imageAndVideo/fitzone.png'
 
 
 
@@ -21,7 +23,7 @@ export const projects = [
     description: "One can generate random number for lotto 6/49 and Euro Jeckpot",
     image: MakeLottoImg ,
     path:"https://makelottonumber.onrender.com",
-    technology:'CSS Javascript React'
+    technology:'CSS Javascript React.js'
   },
   {
     id: 2,
@@ -29,7 +31,15 @@ export const projects = [
     description: "One can create to-do list and also edit it, delete it and to see the weather where you chose",
     image: ToDoAppImg,
     path:"https://to-do-with-weather-api.onrender.com/",
-    technology:'Javascript React Tailwind'
+    technology:'Javascript React.js Tailwind'
+  },
+  {
+    id: 3,
+    title: "FitZone-Gym-and-E-shop",
+    description: "As an admin, you can efficiently manage members and courses. This includes registering new members, editing or deleting their information, as well as creating, updating, or removing weekly courses. As a member, you can log in to book courses and purchase products from the gym's online store.",
+    image: FitzoneImg,
+    path:"https://fit-zone-tedp.onrender.com/",
+    technology:'TypeScript React.js MongoDB Express.js Node.js Tailwind'
   },
 ];
 
@@ -43,4 +53,5 @@ export const skills = [
   { id: 7, name: "Express.js", icon: Expressicon, path: 'https://expressjs.com/' },
   { id: 8, name: "Bootstrap", icon: booticon, path: 'https://getbootstrap.com/' },
   { id: 9, name: "Tailwind", icon: tailicon, path: 'https://tailwindcss.com/' },
+  { id: 10, name: "TypeScript", icon: TSicon, path: 'https://www.typescriptlang.org/' },
 ];

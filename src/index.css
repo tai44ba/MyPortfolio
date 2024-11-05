@@ -32,7 +32,7 @@
   }
   
   .nav-link-active {
-    color: #1e3a8a; /* Tailwind's blue-900 for active link */
+    color: #6b1e8a; /* Tailwind's blue-900 for active link */
   }
 
   .video-container {

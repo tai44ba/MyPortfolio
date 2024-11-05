@@ -4,7 +4,7 @@ import "../index.css"; // Import the custom CSS file for background animations
 
 function Header() {
   return (
-    <nav className="bg-black opacity-70 shadow-md py-4 fixed w-screen">
+    <nav className="bg-black opacity-70 shadow-md py-5 fixed w-screen">
       <ul className="flex justify-center space-x-8">
         <li>
           <NavLink
