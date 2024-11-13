@@ -17,21 +17,23 @@ import FitzoneImg from '../imageAndVideo/fitzone.png'
 
 
 export const projects = [
-  {
-    id: 1,
-    title: "Make Lotto Number App",
-    description: "One can generate random number for lotto 6/49 and Euro Jeckpot",
-    image: MakeLottoImg ,
-    path:"https://makelottonumber.onrender.com",
-    technology:'CSS Javascript React.js'
-  },
+  // {
+  //   id: 1,
+  //   title: "Make Lotto Number App",
+  //   description: "One can generate random number for lotto 6/49 and Euro Jeckpot",
+  //   image: MakeLottoImg ,
+  //   path:"https://makelottonumber.onrender.com",
+  //   technology:'CSS Javascript React.js',
+  //   test:''
+  // },
   {
     id: 2,
     title: "To-Do App With Weather API",
     description: "One can create to-do list and also edit it, delete it and to see the weather where you chose",
     image: ToDoAppImg,
     path:"https://to-do-with-weather-api.onrender.com/",
-    technology:'Javascript React.js Tailwind'
+    technology:'Javascript React.js Tailwind',
+    test:''
   },
   {
     id: 3,
@@ -39,7 +41,8 @@ export const projects = [
     description: "As an admin, you can efficiently manage members and courses. This includes registering new members, editing or deleting their information, as well as creating, updating, or removing weekly courses. As a member, you can log in to book courses and purchase products from the gym's online store.",
     image: FitzoneImg,
     path:"https://fit-zone-tedp.onrender.com/",
-    technology:'TypeScript React.js MongoDB Express.js Node.js Tailwind'
+    technology:'TypeScript React.js MongoDB Express.js Node.js Tailwind',
+    test:'for testing : testmember@mail.com -> pass: testmember'
   },
 ];
 
