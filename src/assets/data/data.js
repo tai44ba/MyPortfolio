@@ -13,19 +13,20 @@ import TSicon from '../imageAndVideo/icons8-typescript.svg'
 import MakeLottoImg from '../imageAndVideo/makeLottoNumberApp.png'
 import ToDoAppImg from '../imageAndVideo/ToDoAppWithWeatherAPI.png'
 import FitzoneImg from '../imageAndVideo/fitzone.png'
+import JobListingImg from '../imageAndVideo/showcacehomepage.png'
 
 
 
 export const projects = [
-  // {
-  //   id: 1,
-  //   title: "Make Lotto Number App",
-  //   description: "One can generate random number for lotto 6/49 and Euro Jeckpot",
-  //   image: MakeLottoImg ,
-  //   path:"https://makelottonumber.onrender.com",
-  //   technology:'CSS Javascript React.js',
-  //   test:''
-  // },
+  {
+    id: 1,
+    title: "Job Listing Site php",
+    description: "One can register as new user and to login, create new post, edit, delete the post. And date connect to MySQL database.",
+    image: JobListingImg ,
+    path:"https://github.com/tai44ba/Job-Listing-Site-php",
+    technology:'PHP MySQL',
+    test:''
+  },
   {
     id: 2,
     title: "To-Do App With Weather API",
