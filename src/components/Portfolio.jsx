@@ -48,7 +48,7 @@ function Portfolio({ isGoingUp }) {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    To see demo
+                    More
                   </a>
                 </button>
               </div>

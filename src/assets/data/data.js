@@ -20,15 +20,6 @@ import JobListingImg from '../imageAndVideo/showcacehomepage.png'
 export const projects = [
   {
     id: 1,
-    title: "Job Listing Site php",
-    description: "One can register as new user and to login, create new post, edit, delete the post. And date connect to MySQL database.",
-    image: JobListingImg ,
-    path:"https://github.com/tai44ba/Job-Listing-Site-php",
-    technology:'PHP MySQL',
-    test:''
-  },
-  {
-    id: 2,
     title: "To-Do App With Weather API",
     description: "One can create to-do list and also edit it, delete it and to see the weather where you chose",
     image: ToDoAppImg,
@@ -37,13 +28,22 @@ export const projects = [
     test:''
   },
   {
-    id: 3,
+    id: 2,
     title: "FitZone-Gym-and-E-shop",
     description: "As an admin, you can efficiently manage members and courses. This includes registering new members, editing or deleting their information, as well as creating, updating, or removing weekly courses. As a member, you can log in to book courses and purchase products from the gym's online store.",
     image: FitzoneImg,
     path:"https://fit-zone-tedp.onrender.com/",
     technology:'TypeScript React.js MongoDB Express.js Node.js Tailwind',
     test:'for testing : testmember@mail.com -> pass: testmember'
+  },
+  {
+    id: 3,
+    title: "Job Listing Site php",
+    description: "One can register as new user and to login, create new post, edit, delete the post. And date connect to MySQL database.",
+    image: JobListingImg ,
+    path:"https://github.com/tai44ba/Job-Listing-Site-php",
+    technology:'PHP MySQL',
+    test:''
   },
 ];
 
