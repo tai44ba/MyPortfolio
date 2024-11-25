@@ -39,7 +39,7 @@ export const projects = [
   {
     id: 3,
     title: "Job Listing Site php",
-    description: "One can register as new user and to login, create new post, edit, delete the post. And date connect to MySQL database.",
+    description: "Users can register for a new account, log in, create new posts, edit or delete existing posts, and manage these actions with data stored in a MySQL database",
     image: JobListingImg ,
     path:"https://github.com/tai44ba/Job-Listing-Site-php",
     technology:'PHP MySQL',
