@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
-import profilePic from '../assets/imageAndVideo/IMG_20241012_112212.jpg'
+import profilePic from "../assets/imageAndVideo/IMG_20241012_112212.jpg";
 
 function Home({ isGoingUp }) {
   return (
@@ -18,35 +18,56 @@ function Home({ isGoingUp }) {
       >
         <Header />
         <div className="flex flex-col items-center justify-center h-screen text-center">
-          <img
-            className="rounded-full aspect-square w-[220px] m-4"
-            src={profilePic}
-            alt="image"
-          />
-          <h1 className="text-5xl font-bold text-white">
-            Hi, I'm Taishi Shibamoto
-          </h1>
-          <p className="text-4xl font-bold text-white mt-4 transform">
-            I'm
-            <span className="text-4xl font-bold text-blue-500 mt-4 transform">
-              <Typewriter
-                words={[" a Full-Stack Web Developer.", " Enjoying Coding!"]}
-                loop={0} // Number of loops, set to 0 or false for infinite loop
-                cursor
-                cursorStyle="|"
-                typeSpeed={100}
-                deleteSpeed={100}
-                delaySpeed={1000}
+          <div className="flex justify-around w-full mb-20">
+            <div className="flex flex-col w-5/12 items-center pl-16">
+              <img
+                className="rounded-full aspect-square w-[220px] m-6"
+                src={profilePic}
+                alt="image"
               />
-            </span>
-          </p>
-          <div className="text-gray-300 text-xl w-6/12 m-3">
-            <p>
-              I am a consistent individual, always eager to discover new things.
-              I am passionate about mastering whatever I set out to learn and am
-              ready to make meaningful contributions to achieve great things
-            </p>
+              <p className="text-sm text-gray-400" >junior full stack developer</p>
+              <h1 className="text-5xl font-bold text-white m-3">
+                Taishi Shibamoto
+              </h1>
+              <p className="text-4xl font-bold text-white mt-6 transform">
+                I'm
+                <span className="text-4xl font-bold text-blue-500 mt-4 transform">
+                  <Typewriter
+                    words={[
+                      " a Full-Stack Web Developer.",
+                      " enjoying Coding!",
+                      " a Climber",
+                      " a electric music lover",
+                    ]}
+                    loop={0} // Number of loops, set to 0 or false for infinite loop
+                    cursor
+                    cursorStyle="|"
+                    typeSpeed={100}
+                    deleteSpeed={100}
+                    delaySpeed={1000}
+                  />
+                </span>
+              </p>
+            </div>
+            <div className="flex items-center w-7/12" >
+              <div className="text-gray-300 text-xl px-14 mx-14 border-l-2">
+                <p className="font-bold text-start">
+                  Hi, I’m Taishi , a passionate and motivated Full Stack Web
+                  Developer with expertise in the MERN stack (MongoDB,
+                  Express.js, React, and Node.js).<br/> I recently completed my
+                  training and am eager to start my career in web development.
+                  My approach is rooted in consistency, creativity, and a
+                  commitment to delivering high-quality results.<br/> When I’m not
+                  coding, you can find me exploring the world of hiking in nature, bouldering, or enjoying digging the attractive beats of techno and
+                  house music at a record store.<br/> These activities fuel my creativity and inspire
+                  my problem-solving mindset.<br/> I’m excited about the opportunity
+                  to bring my skills, determination, and love for development to
+                  a dynamic team.<br/> Let’s build something amazing together!
+                </p>
+              </div>
+            </div>
           </div>
+
           <div className="flex gap-7">
             <NavLink to="/portfolio">
               <button className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-full hover:scale-110 transition-transform duration-300 ease-in-out shadow-lg transform">

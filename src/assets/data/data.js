@@ -9,6 +9,8 @@ import Expressicon from '../imageAndVideo/icons8-expressjs.svg'
 import booticon from '../imageAndVideo/icons8-bootstrap.svg'
 import tailicon from '../imageAndVideo/icons8-tailwinds.svg'
 import TSicon from '../imageAndVideo/icons8-typescript.svg'
+import phpicon from '../imageAndVideo/icons8-php-logo.svg'
+import mySqlicon from '../imageAndVideo/icons8-my-sql.svg'
 // project pictuure
 import MakeLottoImg from '../imageAndVideo/makeLottoNumberApp.png'
 import ToDoAppImg from '../imageAndVideo/ToDoAppWithWeatherAPI.png'
@@ -38,7 +40,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Job Listing Site php",
+    title: "Job Listing Site",
     description: "Users can register for a new account, log in, create new posts, edit or delete existing posts, and manage these actions with data stored in a MySQL database",
     image: JobListingImg ,
     path:"https://github.com/tai44ba/Job-Listing-Site-php",
@@ -58,4 +60,6 @@ export const skills = [
   { id: 8, name: "Bootstrap", icon: booticon, path: 'https://getbootstrap.com/' },
   { id: 9, name: "Tailwind", icon: tailicon, path: 'https://tailwindcss.com/' },
   { id: 10, name: "TypeScript", icon: TSicon, path: 'https://www.typescriptlang.org/' },
+  { id: 11, name: "PHP", icon: phpicon, path: 'https://www.php.net/' },
+  { id: 12, name: "My SQL", icon: mySqlicon, path: 'https://www.mysql.com/' },
 ];
