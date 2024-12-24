@@ -23,7 +23,7 @@ function Portfolio({ isGoingUp }) {
         <h2 className="text-4xl text-center font-bold text-white mb-6 transform">
           My Projects
         </h2>
-        <div className="flex gap-5 px-4 justify-around">
+        <div className="flex flex-wrap gap-5 px-4 justify-around">
           {projects.map((project) => (
             <div
               key={project.id}

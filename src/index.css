@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 .App {
-  max-height: 100vh;
+  min-height: 100vh;
 }
 /* Add this in your global CSS file (e.g., styles.css) */
 .nav-link {
   position: relative;
-  padding: 8px 16px;
+  padding: 8px 12px;
   transition: color 0.3s ease;
 }
 
