@@ -76,7 +76,7 @@ function Home({ isGoingUp }) {
               </button>
             </NavLink>
             <a
-              href="https://drive.google.com/file/d/1nP8UGtmZ9kyLysCNZfgTyvn20rW8l7E5/view"
+              href="https://drive.google.com/file/d/1r8ZTD8cfTtbonDZoEpfm71GXzOn0OMds/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
             >
